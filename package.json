@@ -1,0 +1,26 @@
+{
+  "name": "fy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.ts",
+  "bin": {
+    "translate": "src/cli.ts"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "^12.11.2"
+  }
+}
